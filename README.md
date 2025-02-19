@@ -17,9 +17,9 @@
 
 
 ### iSamples References
-Davies N, Deck J, Kansa EC, Kansa SW, Kunze J, Meyer C, Orrell T, Ramdeen S, Snyder R, Vieglais D, Walls RL, Lehnert K (2021). Internet of samples (iSamples): Toward an interdisciplinary cyberinfrastructure for material samples. _GigaScience_, _10_(5), giab028.  
-Song H, Cui H, Vieglais D, Mandel D, Thomer AK (2023) Automated Metadata Enhancement for Physical Sample Record Aggregation in the iSamples Project. _Proceedings of the Association for Information Science and Technology_, _60_(1), 1131-1133.  
-Richard SM, Vieglais D, Thomer A, Song H, Davies N, Deck J, Gan Q, Kansa EC, Kansa S, Kunze J, Lehnert K (2024) A metadata schema for documenting material samples from multiple domains. Semantic Web *In press.*  
+* Davies N, Deck J, Kansa EC, Kansa SW, Kunze J, Meyer C, Orrell T, Ramdeen S, Snyder R, Vieglais D, Walls RL, Lehnert K (2021). Internet of samples (iSamples): Toward an interdisciplinary cyberinfrastructure for material samples. _GigaScience_, _10_(5), giab028.  
+* Song H, Cui H, Vieglais D, Mandel D, Thomer AK (2023) Automated Metadata Enhancement for Physical Sample Record Aggregation in the iSamples Project. _Proceedings of the Association for Information Science and Technology_, _60_(1), 1131-1133.  
+* Richard SM, Vieglais D, Thomer A, Song H, Davies N, Deck J, Gan Q, Kansa EC, Kansa S, Kunze J, Lehnert K (2024) A metadata schema for documenting material samples from multiple domains. Semantic Web *In press.*  
 
 ## Darwin Core Resources
 | Title                       | URL                                                                    | Description                                                                                    |
