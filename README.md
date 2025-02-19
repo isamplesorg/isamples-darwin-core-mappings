@@ -1,7 +1,8 @@
 # Ontological Mappings of the iSamples Model to Darwin Core
 [isamples-dwc-mappings](https://github.com/ben-norton/isamples-dwc-mappings)
 
-## iSamples Resources
+## iSamples
+### Resources
 | Title                                          | URL                                                  | Description                                                                                                                |
 | ---------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | iSamples GitHub Home                           | https://isamplesorg.github.io/home/                  | Project landing page on GitHub                                                                                             |
@@ -15,13 +16,13 @@
 | iSamples API Documentation                     | https://hyde.cyverse.org/isamples_central/docs       | Swagger Docs that describe the iSamples Portal API                                                                         |
 | iSamples Search Portal                         | https://hyde.cyverse.org/isamples_central/ui/#/      | Frontend interface for searching iSamples data                                                                             |
 
-
-### iSamples References
+### Publications
 * Davies N, Deck J, Kansa EC, Kansa SW, Kunze J, Meyer C, Orrell T, Ramdeen S, Snyder R, Vieglais D, Walls RL, Lehnert K (2021). Internet of samples (iSamples): Toward an interdisciplinary cyberinfrastructure for material samples. _GigaScience_, _10_(5), giab028.  
 * Song H, Cui H, Vieglais D, Mandel D, Thomer AK (2023) Automated Metadata Enhancement for Physical Sample Record Aggregation in the iSamples Project. _Proceedings of the Association for Information Science and Technology_, _60_(1), 1131-1133.  
 * Richard SM, Vieglais D, Thomer A, Song H, Davies N, Deck J, Gan Q, Kansa EC, Kansa S, Kunze J, Lehnert K (2024) A metadata schema for documenting material samples from multiple domains. Semantic Web *In press.*  
 
-## Darwin Core Resources
+## Darwin Core
+### Resources
 | Title                       | URL                                                                    | Description                                                                                    |
 | --------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | Darwin Core Home            | https://dwc.tdwg.org/                                                  | The TDWG website homepage of Darwin Core                                                       |
@@ -35,13 +36,13 @@
 | Questions and Answers Forum | https://github.com/tdwg/dwc-qa/blob/master/README.md                   | A GitHub repo dedicated to questions and answers about the Darwin Core standard. |
 
 ## Mapping Specifications
-### SSSOM
+### SSSOM Resources
 | Title                                                    | URL                                                   | Description                                                                                                                                                                  |
 | -------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Simple Standard for Sharing Ontological Mappings (SSSOM) | https://mapping-commons.github.io/sssom/              | The Simple Standard for Sharing Ontological Mappings (SSSOM) is a community-driven standard designed to facilitate the exchange and integration of semantic entity mappings. |
 | SSSOM Official Data Model Documentation                  | https://mapping-commons.github.io/sssom/linkml-index/ | Datamodel for Simple Standard for Sharing Ontological Mappings (SSSOM)                                                                                                       |
 
-### Semantic Mapping Vocabulary
+### Semantic Mapping Vocabulary Resources
 | Title                                     | URL                                                            | Description                                                                                                                                                                                                                          |
 | ----------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 | Semantic Mapping Vocabulary Documentation | https://mapping-commons.github.io/semantic-mapping-vocabulary/ | A matching process that exploits background knowledge from external resources, commonly referred to as background knowledge resources. This approach is also known as indirect matching, BK-based matching or context-based matching.|
