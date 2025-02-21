@@ -1,7 +1,6 @@
 # Semantic Mappings of the iSamples Model to the Darwin Core Standard
-[isamples-dwc-mappings](https://github.com/ben-norton/isamples-dwc-mappings)
 
-Reported mappings adhere to the [Simple Standard for Sharing Ontology Mappings (SSSOM)](https://mapping-commons.github.io/sssom/) specification. 
+This repository contains semantic mappings of the iSamples Model to Darwin Core (DWC) and Darwin Core Data Package (DWC DP). Reported mappings adhere to the [Simple Standard for Sharing Ontology Mappings (SSSOM)](https://mapping-commons.github.io/sssom/) specification. 
 
 This repository contains the following semantic mapping sets:
 1. [dwc-mappings] iSamples Model (sssom:object_source) and (Simple) Darwin Core (sssom:subject_source) - ***Complete***
