@@ -1,0 +1,20 @@
+curie_map:
+	isam: https://w3id.org/isample/schema/1.0/
+	dwc: http://rs.tdwg.org/dwc/terms/
+	orcid: https://orcid.org/
+	semapv: https://w3id.org/semapv/vocab/
+	skos: http://www.w3.org/2004/02/skos/core#
+	sssom: https://w3id.org/sssom/
+mapping_set_id: isamples-dwc-mappings.sssom.tsv
+mapping_set_version: 1.0
+mapping_set_title: iSamples to Simple Darwin Core Semantic Mapping Set
+mapping_set_description: >
+	Manually curated mapping of the iSamples Model to Simple Darwin Core terms for the purposes of facilitate dataset transformations
+license: https://creativecommons.org/publicdomain/zero/1.0/
+mapping_provider: https://github.com/ben-norton/
+mapping_date: 2025-02-21
+publication_date: 2025-02-24
+creator_label: Susan Edelstein, Ben Norton
+creator_id: https://orcid.org/0000-0002-5819-9134
+comment: All mappings were conducted by semapv:ManualMappingCuration followed by a semapv:MappingReview
+
