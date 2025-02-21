@@ -14,7 +14,7 @@ Each mapping set contains the following files
 Additional Notes and Resources
 | Title | Description | URL |
 | -- | -- | -- |
-| Sources | Collection of source files for the semantic mappings, which are subsets of the full source for the purposes of semantic mapping  | [[sources](https://github.com/ben-norton/isamples-dwc-mappings/tree/main/sources)](https://github.com/ben-norton/isamples-dwc-mappings/tree/main/sources) |
+| Sources | Collection of source files for the semantic mappings, which are subsets of the full source for the purposes of semantic mapping  | [https://github.com/ben-norton/isamples-dwc-mappings/tree/main/sources](https://github.com/ben-norton/isamples-dwc-mappings/tree/main/sources) |
 | Mapping Resources | A collection of curated web-based resources for Semantic Mapping exercises | [https://github.com/ben-norton/isamples-dwc-mappings/blob/main/resources.md](https://github.com/ben-norton/isamples-dwc-mappings/blob/main/resources.md) |
 | Glossary | A tabulated glossary of important semantic mapping terms | [https://github.com/ben-norton/isamples-dwc-mappings/blob/main/glossary.md](https://github.com/ben-norton/isamples-dwc-mappings/blob/main/glossary.md) |
 
