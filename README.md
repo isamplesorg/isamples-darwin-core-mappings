@@ -10,7 +10,8 @@ Each mapping set contains the following files
 1. YAML File containing a serialization of the MappingSet object
 2. Tab-delimited file containing the mappings block (individual mappings)
 
-Additional Notes and Resources
+## Additional Notes and Resources
+
 | Title | Description | URL |
 | -- | -- | -- |
 | Sources | Collection of source files for the semantic mappings, which are subsets of the full source for the purposes of semantic mapping  | [https://github.com/ben-norton/isamples-dwc-mappings/tree/main/sources](https://github.com/ben-norton/isamples-dwc-mappings/tree/main/sources) |
