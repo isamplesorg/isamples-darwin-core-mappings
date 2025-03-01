@@ -1,0 +1,57 @@
+rdfs:label	rdfs:Class	skos:definition	datatype	
+affiliation	Agent	Name of an organization that employes or sponsors a person for the role they play relative to sample collection or curation.	string	
+contact_information	Agent	e-mail address, telephone number, mailing address, or web site through which an agent can be contacted. Something that should be stable and reliable.	string	
+identifier	Agent	a string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful represenation of the resource.	string	
+name	Agent	string, name of a person. Format {}firstName MI lastName}.	string	
+role	Agent	term that specifies how a person is related to a sample curation or collection activity.	string	
+elevation	GeospatialCoordLocation	Should be a number and Unit of measure, and the vertical reference system. e.g. 401 m above mean sea level.	string	
+latitude	GeospatialCoordLocation	angular coordinate measured positive north from the equator.	number	
+longitude	GeospatialCoordLocation	angular coordinate measured positive eastward from the prime meridian.	number	
+obfuscated	GeospatialCoordLocation	Flag to indicate that accuracy of provided coordinate location has been reduced (obfuscated) because the exact location is restricted information.	boolean	
+identifier	IdentifierObject	a string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful represenation of the resource.	string	
+label	IdentifierObject	a human intelligible string used to identify a thing, i.e. the name to use for the thing; should be unique in the scope of a sample collection or dataset.	string	
+scheme_name	IdentifierObject	string label for the concept scheme or vocabulary within which the keyword concept is defined. The scheme name can be used to scope keyword to particular categories, e.g. 'CGI rock classification', 'GCMD keywords', 'Getty AAT'	string	
+keyword	Keyword	string label for a concept that characterizes the sample in some respect	string	
+keyword_uri	Keyword	an identifier for the keyword concept	string	
+scheme_name	Keyword	string label for the concept scheme or vocabulary within which the keyword concept is defined. The scheme name can be used to scope keyword to particular categories, e.g. 'CGI rock classification', 'GCMD keywords', 'Getty AAT'	string	
+scheme_uri	Keyword	Identifier for the concept scheme or vocabulary within which the keyword concept is defined.	string	
+access_constraints	MaterialSampleCuration	Cultural, legal, or other policy issues that bear on access to view, borrow, or subsample a sample or visit a sampling site.	array	
+curation_location	MaterialSampleCuration	Information about where and how the sample is currently stored.	string	
+description	MaterialSampleCuration	Free text description of the subject of a triple.	string	
+identifier	MaterialSampleCuration	a string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful represenation of the resource.	string	
+label	MaterialSampleCuration	a human intelligible string used to identify a thing, i.e. the name to use for the thing; should be unique in the scope of a sample collection or dataset.	string	
+responsibility	MaterialSampleCuration	Agent object includes person name, person identifier, affiliation, or organization name, their role relative to the parent element.	array	
+alternate_identifiers	MaterialSampleRecord	one or more identifiers used to identify the sample in other contexts. In this context, the identifier property and scheme_name should be required.	array	
+complies_with	MaterialSampleRecord	a list of policies, recommendations, best practices (etc.) that have been followed in the collection and curation of the sample.	array	
+curation	MaterialSampleRecord	Information about the current storage of sample, access to sample, and events in curation history. Curation as used here starts when the sample is removed from its original context, and might include various processing steps for preservation. Processing related to analysis preparation such as crushing, dissolution, evaporation, filtering are considered part of the sampling method for the derived child sample.	array	
+dc_rights	MaterialSampleRecord	a statement about various property rights associated with the resource, including intellectual property rights. Recommended practice is to refer to a rights statement with a URI. If this is not possible or feasible, a literal value (name, label, or short text) may be provided.	string	
+description	MaterialSampleRecord	Free text description of the subject of a triple.	string	
+has_context_category	MaterialSampleRecord	Top level context, based on the kind of feature sampled. Specific identification of the sampled feature of interest is done through the SamplingEvent/Feature of Interest property. At least one value is an instance of skos:Concept from the iSamples sampled_feature_type.	array	
+has_material_category	MaterialSampleRecord	The kind of material that constitutes the sample. At least one value is an instance of skos:Concept from the iSamples material_type Vocabulary; extension vocabularies can be used for more precise categorization.	array	
+has_sample_object_type	MaterialSampleRecord	The kind of object the material sample is. At least one value is an instance of skos:Concept from the iSamples material_sample_object_type Vocabulary; extension vocabularies can be used for more precise categorization.	array	
+keywords	MaterialSampleRecord	free text terms or formal categories associate with sample to support discovery. As in DataCite metadata, each keyword is a separate element. Multiple keywords should NOT be included as a comma-delimited list.	array	
+label	MaterialSampleRecord	a human intelligible string used to identify a thing, i.e. the name to use for the thing; should be unique in the scope of a sample collection or dataset.	string	
+produced_by	MaterialSampleRecord	object that documents the sampling event--who, where, when the material sample was obtained	string	
+registrant	MaterialSampleRecord	identification of the agent that registered the sample, with contact information. Should include person name and affiliation, or position name and affiliation, or just organization name. e-mail address is preferred contact information.	array	
+related_resource	MaterialSampleRecord	link to related resource with relationship property to indicate nature of connection. Target should be identifier for a resource.	array	
+sample_identifier	MaterialSampleRecord	URI that identifies the material sample described by this record	string	
+sampling_purpose	MaterialSampleRecord	term to specify why a sample was collection.	string	
+description	SampleRelation	Free text description of the subject of a triple.	string	
+label	SampleRelation	a human intelligible string used to identify a thing, i.e. the name to use for the thing; should be unique in the scope of a sample collection or dataset.	string	
+relationship	SampleRelation	term to identify realationship between host sample and the sample relation target. Should be controlled vocabulary (ScopedName). for now start with string, 'derivedFrom'.	string	
+target	SampleRelation	identifier for the target resource in the relationship. Start with string, should be Identifier object.	string	
+authorized_by	SamplingEvent	a list of permits or other formal permission documents under which the sample was collected. Use to cite legal documents authorizing sample collection.	array	
+description	SamplingEvent	Free text description of the subject of a triple.	string	
+has_feature_of_interest	SamplingEvent	What does the sample represent.	string	
+identifier	SamplingEvent	a string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful represenation of the resource.	string	
+label	SamplingEvent	a human intelligible string used to identify a thing, i.e. the name to use for the thing; should be unique in the scope of a sample collection or dataset.	string	
+project	SamplingEvent	the name or identifier for a project that is the sponsor for a samplingEvent. Use to link samples collected in the context of a particular project. We do not have a preferred project model at this point; the RAID effort (ISO23527, https://www.raid.org.au/) will hopefully mature into a registry we can use for project identification and metadata. Property value should be a name or a resolvable URI.	string	
+responsibility	SamplingEvent	Agent object includes person name, person identifier, affiliation, or organization name, their role relative to the parent element.	array	
+result_time	SamplingEvent	Date on which the sample was collected. Can be YYYY, YYYY-MM, xsd:date, or xsd:dateTime.	string	
+sampling_site	SamplingEvent	object that identifies the place where the sample was collected	array	
+description	SamplingSite	Free text description of the subject of a triple.	string	
+identifier	SamplingSite	a string that identifies some resource. Expectation is that it is a URI that is resolvable to some useful represenation of the resource.	string	
+is_part_of	SamplingSite	A link from a SamplingSite to a larger sampling site that spatially contains the source SamplingSite. The container site is specified by its identifier.	array	
+label	SamplingSite	a human intelligible string used to identify a thing, i.e. the name to use for the thing; should be unique in the scope of a sample collection or dataset.	string	
+place_name	SamplingSite	one or more names by which the sampling site is known.	array	
+sample_location	SamplingSite	geopatial location of site; required default is WGS84 latitude, longitude in decimal degrees. Elevation as a string with number, unit of measure, and datum.	string	
