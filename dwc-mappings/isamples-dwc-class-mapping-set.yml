@@ -1,0 +1,31 @@
+curie_map:
+	isam: https://w3id.org/isample/schema/1.0/
+	dwc: http://rs.tdwg.org/dwc/terms/
+	orcid: https://orcid.org/
+	semapv: https://w3id.org/semapv/vocab/
+	skos: http://www.w3.org/2004/02/skos/core#
+	sssom: https://w3id.org/sssom/
+mapping_set_id: isamples-dwc-class-mappings.sssom.tsv
+mapping_set_version: 1.0
+mapping_set_title: iSamples to Simple Darwin Core Semantic Class Mapping Set
+mapping_set_description: >
+	Manually curated mapping of iSamples Schema classes to Simple Darwin Core classes for the purposes of semantic transformations, enchanced understanding, and as a prerequisite to property mappings.
+	These mappings are used as the basis for the property mappings. See README file for approach description.
+license: https://creativecommons.org/publicdomain/zero/1.0/
+object_type: rdfs class
+subject_type: rdfs class
+mapping_provider: https://github.com/ben-norton/
+mapping_date: 2025-03-03
+publication_date: 2025-03-03
+creator_label: Ben Norton
+creator_id: https://orcid.org/0000-0002-5819-9134
+comment: All mappings were conducted by semapv:ManualMappingCuration
+extension_definitions:
+  - slot_name: subject_definition
+    property: skos:definitiom
+    type_hint: xsd:string
+  - slot_name: object_definition
+  	property: skos:definition
+  	type_hint: xsd:string
+
+
