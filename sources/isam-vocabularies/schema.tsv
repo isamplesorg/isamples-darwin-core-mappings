@@ -1,4 +1,4 @@
-?iSamples Vocabularies CSV 	
+term 	definition
 skos:prefLabel	The preferred human-friendly (readable) representation of a concept primarily for presentation purposes
 skos:altLabel	An alternate concept representation to resolve synonymy and heterogeneous term use
 skos:definition	A descriptive statement that supplies a complete explanation of the intended meaning of the type and serves to differentiate it from related concepts.
