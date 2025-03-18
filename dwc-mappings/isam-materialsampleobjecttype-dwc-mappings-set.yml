@@ -1,0 +1,23 @@
+curie_map:
+	isam: https://w3id.org/isample/schema/1.0/
+	dwc: http://rs.tdwg.org/dwc/terms/
+	semapv: https://w3id.org/semapv/vocab/
+	skos: http://www.w3.org/2004/02/skos/core#
+	sssom: https://w3id.org/sssom/
+mapping_set_id: isam-materialsampleobjecttype-dwc-mappings.sssom.tsv
+mapping_set_version: 1.0
+mapping_set_title: Material Sample Object Type iSamples vocabulary to Simple Darwin Core Semantic Mapping Set
+mapping_set_description: >
+	Manually curated instance to class mapping of the Material Sample Object Type vocabulary to Simple Darwin Core terms to facilitate dataset transformations and semantic alignments
+license: https://creativecommons.org/publicdomain/zero/1.0/
+mapping_provider: https://github.com/ben-norton/
+mapping_date: 2025-03-14
+publication_date: 2025-03-14
+creator_label: Ben Norton
+creator_id: https://orcid.org/0000-0002-5819-9134
+comment: >
+	All terms mapped to dwc:MaterialSample, which is a subtype of dwc:MaterialEntity. Therefore, any term mapped to dwc:MaterialSample can also be mapped to dwc:MaterialEntity. In addition, a term in the material sample object type vocabulary cannot be mapped to dwc:MaterialEntity if any ancestral parent term is mapped to dwc:MaterialSample.
+extension_definitions:
+  - slot_name: subject_definition
+    property: skos:definitiom
+    type_hint: xsd:string
